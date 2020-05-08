@@ -1,0 +1,263 @@
+@font-face{
+    font-family: Merriweather-Regular;
+    src: url('fonts/Merriweather-Regular.ttf');
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{    
+    margin: -8px;
+    margin-bottom: 0px;
+    background-color: #316dc3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.one,.three{
+    width: 400px;
+    justify-content: center;
+}
+.two{
+    width: 600px;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    background-color:#f7f8fa;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 20px;
+    height:20px;
+}
+
+p.head{
+    color: white;
+}
+
+.first{
+    display: inline-block;
+    padding: 5px;
+}
+
+.second{
+    display: inline-block;
+}
+button{
+    display: inline-block;
+}
+
+#saylani_logo{
+    margin-left: 150px;
+    width: 220px;
+    height: 60px;
+}
+
+li.navigation_links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+
+.navigation_links:hover{
+    margin: 0px;
+    background-color: #316dc3;
+    color: white;
+    cursor: pointer;
+}
+#banner{
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 100%;
+    height: 500px;   
+}
+
+p.news{
+    background-color: #316dc3;
+    color: white;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: #316dc3;
+}
+
+p.subheading{
+    color: green;
+    text-align: center;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+.div3{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: gray;
+}
+
+.div4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#2755e9;
+}
+
+.div5{
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.quantity{
+    font-size: 50px;
+    color: white;
+    font-family: Merriweather-Regular;
+}
+
+.desc{
+    font-size: 18px;
+    font-family: Merriweather-Regular;
+}
+
+.div6{
+    background-color:#f7f8fa;
+}
+
+.heading{
+    font-family: Merriweather-Regular;
+    font-size: 20px;
+    color: #316dc3;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.div7{
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    box-shadow: 5px 5px 5px 5px #e8e9eb ;
+}
+
+.div8{
+    text-align: center;
+}
+
+.div9{
+    display: inline-block;
+    background-color: #f7f8fa;
+    width: 350px;
+    height: 80px;   
+    margin: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.image2{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.heading2{
+    display:inline-block;
+    font-family: Merriweather-Regular;
+    color: #316dc3;
+}
+
+.events{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 2375px;
+    left: 950px;
+    color: #9d9d9d;
+    justify-content: right;
+}
+
+.gallery{
+    width: 250px;
+    height: 200px;
+}
+
+.div10{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #25272e;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 415px;
+    width: 100%;
+}
+
+.div11{
+    color: #9a9b9c;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.div12{
+    color: white;
+    margin-top: 50px;
+}
+
+.div13{
+    color: white;
+    margin-top: 50px;
+}
+
+.div14{
+    display: flex;
+    background-color: #316dc3;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+    #banner {
+      height: 200px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    #banner {
+      height: 300px;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    #banner {
+      height: 400px;
+    }
+  }
